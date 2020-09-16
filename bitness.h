@@ -3,7 +3,7 @@
 
 #ifndef NO_AUTO_BITNESS
   #ifdef __LP64__
-    #define USE_64BIT 0
+    #define USE_64BIT 1
   #else
     #undef USE_64BIT
   #endif
